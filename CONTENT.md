@@ -2,7 +2,7 @@
 
 Tierra is a Michigan State University student studying Information Science with a Korean minor.
 
-I am interested in User Experience/ User Interface design and enjoy building user interfaces, programming, and practicing photography. I aspire to enter the field of Data Analytics, Software Development, or Web Design. This portfolio will showcase my skills and completed work. 
+I am a college student interested in User Experience/ User Interface design and enjoy building user interfaces, programming, and practicing photography. I aspire to enter the field of Data Analytics, Software Development, or Web Design. This portfolio will showcase my skills and completed work. 
 
 # Home/Introduction
 Information about what the website is and what can be found on it
