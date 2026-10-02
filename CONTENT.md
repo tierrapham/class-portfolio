@@ -5,12 +5,11 @@ Tierra is a Michigan State University student studying Information Science with 
 I am a college student interested in User Experience/ User Interface design and enjoy building user interfaces, programming, and practicing photography. I aspire to enter the field of Data Analytics, Software Development, or Web Design. This portfolio will showcase my skills and completed work. 
 
 # Home/Introduction
-Information about what the website is and what can be found on it
 # About Me
-Information about who I am, what I study, my passions/interests/goals
+Paragraph written above
 # Projects
-Web design/programming projects I have completed
 # Skills
+HTML5, Git, GitHub, GitHub Codespaces, Visual Studio Code, Python
 # Images/Media
 # Contact
 Tierra Parham
