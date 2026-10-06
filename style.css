@@ -1,0 +1,8 @@
+body {
+    font-family: 'Merriweather', Georgia, serif;
+}
+
+#media article{
+    background: #eee;
+    margin: 40px;
+}
