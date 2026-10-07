@@ -1,8 +1,15 @@
-body {
-    font-family: 'Merriweather', Georgia, serif;
+:root{
+   --primary-bg: #fffaf0;
+   --rich-mahogany: #2d0605;
+   --crimson-violet: #4c0827;
+   --dusty-rose: #c78283;
+   --soft-blush: #f3d9dc;
+   --pale-oak: #d7bea8;
+   --standard-gap: 40px;
 }
 
-#media article{
-    background: #eee;
-    margin: 40px;
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: var(--primary-bg);
+    color: var(--rich-mahogany);
 }
