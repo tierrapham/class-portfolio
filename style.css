@@ -52,3 +52,7 @@ p {
    align-items: center;
    text-align: center;
 }
+.button:hover {
+    background-color: var(--crimson-violet);
+    color: var(--dusty-rose);
+}
