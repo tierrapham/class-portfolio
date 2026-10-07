@@ -31,3 +31,6 @@ h2 {
    font-family: 'Playfair Display', serif;
    color: var(--rich-mahogany);
 }
+h3 {
+   color: var(--crimson-violet);
+}
