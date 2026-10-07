@@ -14,3 +14,10 @@ body {
     color: var(--rich-mahogany);
     margin: var(--standard-gap)
 }
+h1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   color: var(--crimson-violet);
+}
