@@ -56,3 +56,8 @@ p {
     background-color: var(--crimson-violet);
     color: var(--dusty-rose);
 }
+.in-text-link {
+    color: var(--rich-mahogany);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
