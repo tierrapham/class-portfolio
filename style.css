@@ -12,4 +12,5 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background: var(--primary-bg);
     color: var(--rich-mahogany);
+    margin: var(--standard-gap)
 }
