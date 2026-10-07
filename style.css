@@ -61,3 +61,6 @@ p {
     text-decoration: none;
     transition: all 0.3s ease;
 }
+.in-text-link:hover {
+    color: var(--dusty-rose);
+}
