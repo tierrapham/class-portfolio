@@ -37,3 +37,18 @@ h3 {
 p {
    color: var(--rich-mahogany);
 }
+.button {
+   display: inline-block;
+   text-decoration: none;
+   border: 2px solid var(--rich-mahogany);
+   color: var(--rich-mahogany);
+   background-color: var(--pale-oak);
+   padding: 2px;
+   margin: 2px;
+   width: 50px;
+   transition: all 0.3s ease;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
