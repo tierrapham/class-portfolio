@@ -73,3 +73,12 @@ img {
 img:hover {
     background-color: var(--dusty-rose);
 }
+#logo {
+   width: 60px;
+   border: none;
+   border-radius: 0;
+   padding: 0;
+}
+#logo:hover {
+   background-color: transparent;
+}
