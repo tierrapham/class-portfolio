@@ -82,3 +82,37 @@ img:hover {
 #logo:hover {
    background-color: transparent;
 }
+.outer-box {
+   border: 5px solid var(--dusty-rose);
+   background-color: var(--soft-blush);
+   display: inline-block;
+   margin: 30px;
+   margin-left: 2em;
+}
+.inner-box {
+   border: 5px solid var(--dusty-rose);
+   background-color: var(--crimson-violet);
+   padding: 15px;
+   height: 100px;
+   width: 100px;
+   margin-top: -20px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   margin-left: 0.5em;
+}
+.inner-box h3 {
+   color: var(--primary-bg);
+   font-size: medium;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.inner-box p {
+   color: var(--primary-bg);
+   font-size: small;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
