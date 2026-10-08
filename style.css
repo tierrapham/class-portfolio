@@ -37,6 +37,9 @@ h3 {
 p {
    color: var(--rich-mahogany);
 }
+ul {
+   list-style-type: circle;
+}
 .button {
    display: inline-block;
    text-decoration: none;
