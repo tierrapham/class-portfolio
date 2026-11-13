@@ -8,13 +8,21 @@
    --cotton-rose: #f4c2c2;
    --standard-gap: 40px;
 }
-
+body.dark-mode {
+   --primary-bg: #0d1b2a;
+   --dusk-blue: #778da9;
+   --prussian-blue: #415a77;
+   --ink-black: #e0e1dd;
+   --alabaster-grey: #caf0f8;
+   --lavendar-grey: #f4c2c2;
+   --cotton-rose: #f4c2c2;
+}
 body {
     font-family: 'Times New Roman', Times, serif;
     background: var(--primary-bg);
     color: var(--ink-black);
-    border-top: 20px solid var(--lavendar-grey);
     margin: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 h2 {
    font-size: 2em;
@@ -36,6 +44,23 @@ header {
    text-align: center;
    padding: 1rem 0;
    margin: 0 2rem;
+   position: relative;
+}
+.gradient-bar {
+   position: relative;
+   width: 100%;
+   height: 50px;
+}
+/* Add a gradient bar at the top of the page (from Granim.js example website: https://sarcadass.github.io/granim.js/examples.html) */
+#canvas-basic {
+   position: absolute;
+   display: block;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
 }
 #hero h1 {
    font-size: 2em;
@@ -63,6 +88,22 @@ main {
 }
 #logo:hover {
    background-color: transparent;
+}
+#mode-toggle {
+   position: absolute;
+   top: 10px;
+   right: 0;
+   background-color: var(--lavendar-grey);
+   color: var(--ink-black);
+   border: none;
+   border-radius: 5px;
+   padding: 10px 20px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+#mode-toggle:hover {
+   background-color: var(--dusk-blue);
+   color: var(--cotton-rose);
 }
 .in-text-link {
     color: var(--ink-black);
